@@ -1,0 +1,72 @@
+/* style.css — Tema pink gemoy imut */
+body {
+    background-image: url('pink4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #80004d;
+    text-align: center;
+    padding: 30px;
+    background-color: #ffe4f0; /* fallback */
+}
+
+h2 {
+    color: #ff1493;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px white;
+}
+
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff1493;
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 240, 245, 0.95);
+    width: 90%;
+    max-width: 800px;
+    border: 3px solid #ffb6c1;
+    box-shadow: 0 0 15px pink;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ffb6c1;
+    font-size: 16px;
+}
+
+th {
+    background-color: #ffcce6;
+    color: #99004d;
+}
+
+td {
+    background-color: #fffaff;
+}
+
+button, input[type="submit"] {
+    background-color: #ff66b2;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ff1493;
+}
